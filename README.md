@@ -35,3 +35,10 @@ No third-party dependencies
 Tests:
 Unit tests included under AstroVisionTests/
 UI tests under AstroVisionUITests/
+
+Screenshots:
+![home](https://github.com/user-attachments/assets/426a32a5-1674-4c95-8621-9f47bd1ce956)
+
+![date_Picker](https://github.com/user-attachments/assets/ce45eac1-8973-47c5-af2c-daee472ea915)
+
+![video_apod](https://github.com/user-attachments/assets/0b59331d-4ae1-4400-a114-91186095e3ed)
