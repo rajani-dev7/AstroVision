@@ -24,6 +24,7 @@ AstroVision is an iOS app built using Swift and SwiftUI that displays NASA's Ast
 
 ## Project Structure
 
+```
 AstroVision/
 ├── AstroVision.xcodeproj/         # Xcode project files
 ├── AstroVision/                   # App source code
@@ -63,6 +64,9 @@ AstroVision/
 │   └── AstroVisionUITestsLaunchTests.swift
 ├── README.md
 └── LICENSE
+
+```
+
 
 ## Screens:
 APODView: Displays the image or embedded video for the selected date.
