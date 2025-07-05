@@ -5,22 +5,22 @@ AstroVision is an iOS app built using Swift and SwiftUI that displays NASA's Ast
 
 ## Features
 ## Basic Functionality
-1.Shows today's APOD (image or video) on app launch.
-2.Supports date selection to load APOD for any specific day.
-3.Handles both image and video content types.
-4.Caches the last successful APOD response (image + data) to show offline if network fails.
+* Shows today's APOD (image or video) on app launch.
+* Supports date selection to load APOD for any specific day.
+* Handles both image and video content types.
+* Caches the last successful APOD response (image + data) to show offline if network fails.
 
 ## Bonus Enhancements:
-1.Full support for iPhone and iPad (portrait + landscape).
-2.Dark Mode compatibility.
-3.Dynamic Type for accessibility.
+* Full support for iPhone and iPad (portrait + landscape).
+* Dark Mode compatibility.
+* Dynamic Type for accessibility.
 
 ## Architecture:
-1.The app follows MVVM with clean separation of:
-  Model: APOD.swift
-  ViewModel: APODViewModel.swift, MediaViewModel.swift
-  Views: SwiftUI-based components using a TabView layout.
-  Network Layer: Custom-built client in NetworkClient/ (no third-party libraries used).
+* The app follows MVVM with clean separation of:
+  -- Model: APOD.swift
+  -- ViewModel: APODViewModel.swift, MediaViewModel.swift
+  -- Views: SwiftUI-based components using a TabView layout.
+  -- Network Layer: Custom-built client in NetworkClient/ (no third-party libraries used).
 
 ## Project Structure
 
@@ -69,19 +69,19 @@ AstroVision/
 
 
 ## Screens:
-APODView: Displays the image or embedded video for the selected date.
-MainTabView: Hosts different screens using a TabView.
-APODDateContentView: Allows date selection and triggers fetch.
+* APODView: Displays the image or embedded video for the selected date.
+* MainTabView: Hosts different screens using a TabView.
+* APODDateContentView: Allows date selection and triggers fetch.
 
 ## Tech Specs:
-Minimum iOS Version: iOS 16.0
-Language: Swift
-Frameworks: SwiftUI, Foundation
-No third-party dependencies
+* Minimum iOS Version: iOS 16.0
+* Language: Swift
+* Frameworks: SwiftUI, Foundation
+* No third-party dependencies
 
 ## Tests:
-Unit tests included under AstroVisionTests/
-UI tests under AstroVisionUITests/
+* Unit tests included under AstroVisionTests/
+* UI tests under AstroVisionUITests/
 
 ## Screenshots:
 ![home](https://github.com/user-attachments/assets/426a32a5-1674-4c95-8621-9f47bd1ce956)
