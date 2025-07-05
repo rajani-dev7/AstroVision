@@ -16,11 +16,11 @@ AstroVision is an iOS app built using Swift and SwiftUI that displays NASA's Ast
 * Dynamic Type for accessibility.
 
 ## Architecture:
-* The app follows MVVM with clean separation of:
-  -- Model: APOD.swift
-  -- ViewModel: APODViewModel.swift, MediaViewModel.swift
-  -- Views: SwiftUI-based components using a TabView layout.
-  -- Network Layer: Custom-built client in NetworkClient/ (no third-party libraries used).
+The app follows MVVM with clean separation of:
+* Model: APOD.swift
+* ViewModel: APODViewModel.swift, MediaViewModel.swift
+* Views: SwiftUI-based components using a TabView layout.
+* Network Layer: Custom-built client in NetworkClient/ (no third-party libraries used).
 
 ## Project Structure
 
