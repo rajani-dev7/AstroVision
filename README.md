@@ -90,35 +90,49 @@ AstroVision/
 
 ![video_apod](https://github.com/user-attachments/assets/0b59331d-4ae1-4400-a114-91186095e3ed)
 
-✅ ## Enhancement Points: 
-Add Favorites Feature
-Let users bookmark their favorite APODs locally using CoreData or UserDefaults.
-Offline Storage of Multiple APODs
-Persist recent APODs (not just the last one) using local database or file caching.
-Share Functionality
-Allow sharing APOD image or video via native UIActivityViewController.
-Improve Network Layer
-Use async/await for cleaner code
-Add retry logic and better error handling
-Use dependency injection for easier testing
-Search by Concept Tags
-If available in API, add tag-based search and filtering.
-Add Skeleton Loading View
-Show shimmer/skeleton loaders while fetching content.
-Full-Screen Viewer
-Tap to view APOD image or video in full screen with zoom support.
-Unit & UI Test Coverage
-Add snapshot tests
-Mock network layer for unit testing
-Measure test coverage
-CI/CD with GitHub Actions or Fastlane
-Automate build, test, and deployment to TestFlight.
-Accessibility Improvements
-Support VoiceOver, Dynamic Type scaling, and accessibility labels.
-UI Enhancements
-Smooth animations when switching dates
-Theming and layout improvements
-Onboarding/tutorial screen
-Analytics & Crash Reporting
-Integrate Firebase Analytics and Crashlytics to monitor usage and issues.
+
+## ✅ Enhancement Points:
+
+- **Add Favorites Feature**  
+  Let users bookmark their favorite APODs locally using `CoreData` or `UserDefaults`.
+
+- **Offline Storage of Multiple APODs**  
+  Persist recent APODs (not just the last one) using local database or file caching.
+
+- **Share Functionality**  
+  Allow sharing APOD image or video via native `UIActivityViewController`.
+
+- **Improve Network Layer**  
+  - Use `async/await` for cleaner code  
+  - Add retry logic and better error handling  
+  - Use dependency injection for easier testing
+
+- **Search by Concept Tags**  
+  If available in API, add tag-based search and filtering.
+
+- **Add Skeleton Loading View**  
+  Show shimmer/skeleton loaders while fetching content.
+
+- **Full-Screen Viewer**  
+  Tap to view APOD image or video in full screen with zoom support.
+
+- **Unit & UI Test Coverage**  
+  - Add snapshot tests  
+  - Mock network layer for unit testing  
+  - Measure test coverage
+
+- **CI/CD with GitHub Actions or Fastlane**  
+  Automate build, test, and deployment to TestFlight.
+
+- **Accessibility Improvements**  
+  Support VoiceOver, Dynamic Type scaling, and accessibility labels.
+
+- **UI Enhancements**  
+  - Smooth animations when switching dates  
+  - Theming and layout improvements  
+  - Onboarding/tutorial screen
+
+- **Analytics & Crash Reporting**  
+  Integrate Firebase Analytics and Crashlytics to monitor usage and issues.
+
 
